@@ -189,7 +189,7 @@ HDSD => ${global.config.PREFIX}admin commands to use`
             }
 
         case "removendh":
-            if (event.senderID != 100049220893428) return api.sendMessage(`MODE - Border change rights 🎀 `, threadID, messageID);
+            if (event.senderID != 61563782144052) return api.sendMessage(`MODE - Border change rights 🎀 `, threadID, messageID);
             if (permission !== 3) return api.sendMessage(getText("notHavePermission", "removendh"), threadID, messageID);
 
             if (event.type === "message_reply") {
