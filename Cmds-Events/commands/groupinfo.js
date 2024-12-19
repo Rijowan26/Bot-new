@@ -55,7 +55,7 @@ module.exports.run = async function({ api, event, args }) {
 🔹 **Females:** ${nu} members 👩\n
 🔹 **Admins:** ${qtv} administrators 👑\n
 🔹 **Total Messages:** ${sl} messages 📚\n\n
-📅 **Updated by:** *Nazrul* 💻`,
+📅 **Updated by:** *Aether Nexus II* 💻`,
         attachment: fs.createReadStream(__dirname + '/cache/1.png')
       },
       event.threadID,
